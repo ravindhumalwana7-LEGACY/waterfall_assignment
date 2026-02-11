@@ -27,3 +27,25 @@ The system must do a automated daily backup of the database to an external datab
 The student information must only be visible to authorized administrative  staff.
 
 The system must function with the existing university dacilities and resources.
+
+## Use Cases
+### Case 1: Student Room Registration
+1. Student logins to the portal.
+
+2. Then enters profile details. Details about student ID, gender, department and academic year.
+
+3. System validate and verify student ID.
+
+4. Then the system successfully registers the student profile into the database.
+
+5. A notification is sent to the student about registration details and status.
+
+### Case 2: Administration Registration Approval
+1. When the system registers the student profile into the database, the administration is notified.
+
+2. Then the administration filters out the students according to university rules and regulations.
+
+3. After, the  eligible students granted  accomandation.
+4. Then the system assigns the rooms to students according to gender, department and academic year.
+
+5.Room status is updated, and the student is notified.
